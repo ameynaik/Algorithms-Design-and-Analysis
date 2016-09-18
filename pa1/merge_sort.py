@@ -24,6 +24,7 @@ def merge_sort(array): # Array contains array to be sorted.
 			j = j+2*i
 		i = 2*i
 		level = level + 1
+		print "level",level,array
 	return array
 	
 def sort_and_merge(array,level,j):
